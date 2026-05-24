@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrimoine de Tozeur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <!-- navBar -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> Patrimoine de Djérid </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" target="_blank" href="oasis.html">Oasis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="tradition.html">Tradition</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="achetecture.html">Architecture</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" target="_blank" href="Galerie.html">Galerie</a>
+           <li class="nav-item">
+          <a class="nav-link" target="_blank" href="contact.html">Contact</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="text-center mt-4">
+    <h1 style="color: gray;">Patrimoine Culturel</h1>
+    <p>Située au sud-ouest de la Tunisie, Tozeur est une ville connue pour son patrimoine riche, ses oasis magnifiques et son architecture unique. Cette région reflète l’histoire, la culture et les traditions tunisiennes à travers ses monuments, ses festivals et son artisanat traditionnel
+    </p>
+</div>
+<!-- card images  -->
+ <div class="card-group">
+  <div class="card">
+    <img src="../images/imageV.jpg" class="card-img-top border-radius: 10px;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pourquoi visiter Tozeur?</h5>
+      <p class="card-text"><small class="text-body-secondary">Visiter Tozeur, c’est découvrir une ville unique au cœur du désert tunisien. Connue pour ses magnifiques oasis, son architecture traditionnelle en briques décorées et ses paysages spectaculaires, Tozeur offre une expérience riche en culture et en traditions. Entre histoire, artisanat, hospitalité et nature, cette ville représente l’un des plus beaux patrimoines de la Tunisie</small></p>
+    </div>
+  </div>
+   <div class="card">
+    <img src="../images/imageN.jpg" class="card-img-top border-radius: 10px;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Perle du desert Tunisien</h5>
+           <p class="card-text"><small class="text-body-secondary">Tozeur est appelée la perle du désert tunisien grâce à son oasis magnifique, ses palmiers et ses paysages sahariens uniques. Située aux portes du Sahara, cette ville charme les visiteurs par sa beauté naturelle, son architecture traditionnelle et l’atmosphère paisible du désert.</small></p>
+
+    </div>
+  </div>
+   <div class="card">
+    <img src="../images/imageOS.jpg" class="card-img-top border-radius: 10px;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">🌴 “Un voyage entre oasis et désert”</h5>
+      <p class="card-text"><small class="text-body-secondary">
+
+Entre les dunes dorées et les palmiers verdoyants, ce voyage invite à découvrir la magie des oasis au cœur du désert. Un paysage où le silence des sables rencontre la fraîcheur de l’eau, offrant une expérience unique entre aventure, sérénité et émerveillement.</small></p>
+    </div>
+  </div>
+ 
+  
+</div>
+
+<!-- gallerie -->
+ <div class="text-center mt-4">
+    <img src="../images//images2.jpg" width="200" alt="" onclick="afficheImage(this)">
+    <img src="../images//image5.png" width="200"  alt="" onclick="afficheImage(this)">
+    <img src="../images/image3.jpg" width="200" alt="" onclick="afficheImage(this)">
+    
+ </div>
+ <div class="text-center">
+    <img id="bigImage" width="400"  alt="">
+ </div>
+ <div class="container mt-5">
+ <p class="text-center mt-3">
+    Tozeur se situe au sud-ouest de la Tunisie 🌴
+</p>
+    <h2 class="text-center mb-4">
+        📍 Localisation de Tozeur
+    </h2>
+
+    <div class="text-center">
+
+        <iframe
+            src="https://www.google.com/maps?q=Tozeur,Tunisie&output=embed"
+            width="100%"
+            height="400"
+            style="border:0; border-radius:15px;"
+            allowfullscreen=""
+            loading="lazy">
+
+        </iframe>
+
+    </div>
+
+</div>
+<section class="text-center mt-5">
+
+            <a href="#"
+               class="btn btn-dark">
+
+                <i class="bi bi-arrow-up"></i>
+                Retour en haut
+
+            </a>
+
+        </section>
+
+    </main>
+ <footer class="text-center mt-5 p-4 bg-dark text-white">
+
+    © 2026 Patrimoine Culturel de Tozeur
+
+</footer>
+
+    <!-- link bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="../JS/script.js"></script>
+</body>
+</html>
